@@ -1,5 +1,6 @@
-/* Reset */
+/* Import */
 @import url(reset.css);
+@import url(about.css);
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 /* 
@@ -49,12 +50,13 @@ header {
 	position: relative;
 	min-height: 927px;
 	background: linear-gradient(180deg, #e8f0fb 0%, #fafafa 100%);
-	z-index: -3;
+	z-index: 1;
 }
 
 /* Header menu*/
 
 .header-menu {
+	z-index: 9;
 	padding-top: 35px;
 	gap: 10px;
 	display: flex;
@@ -92,7 +94,7 @@ header {
 
 /* Header main */
 
-header::after {
+.header::after {
 	content: '';
 	z-index: -1;
 	top: 15%;
@@ -117,6 +119,8 @@ header::after {
 }
 
 .header-subtitle {
+	margin: 0 auto;
+	max-width: 780px;
 	text-align: center;
 	font-weight: 600;
 	font-size: 24px;
@@ -202,7 +206,7 @@ header::after {
 	padding-bottom: 120px;
 }
 
-.special-call span {
+.special-call span > a {
 	padding-left: 8px;
 	font-weight: 600;
 	font-size: 20px;

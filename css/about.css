@@ -72,10 +72,11 @@
 	letter-spacing: -0.04em;
 	text-align: center;
 	color: var(--color-secondary);
+	margin-bottom: 5px;
 }
 
 .team-subtitle {
-	max-width: 780px;
+	max-width: 750px;
 	margin: 0 auto;
 	font-weight: 600;
 	font-size: 24px;
@@ -104,6 +105,7 @@
 	height: 225px;
 	box-shadow: inset 0 0 20px 0 rgba(0, 0, 0, 0.05);
 	background: #cff4fc;
+	margin-bottom: 10px;
 }
 
 .team-list__block img {

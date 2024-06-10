@@ -1,0 +1,213 @@
+/* Header */
+
+.contacts-subtitle {
+	padding-bottom: 80px;
+}
+
+.header-contact__block {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
+	margin-bottom: 80px;
+}
+
+.contact__block-left {
+}
+
+.block-left__list {
+	display: flex;
+	gap: 35px;
+	flex-direction: column;
+}
+
+.block-left__item {
+	padding-left: 100px;
+}
+
+.block-left__item-title {
+	position: relative;
+	font-weight: 600;
+	font-size: 24px;
+	letter-spacing: -0.04em;
+	color: var(--color-secondary);
+	margin-bottom: 5px;
+}
+
+/* List icons */
+
+.left__item-title-1::after {
+	content: '';
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: 0;
+	left: -70px;
+	background-image: url(../img/icons/phone-call.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.left__item-title-2::after {
+	content: '';
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: 0;
+	left: -70px;
+	background-image: url(../img/icons/maps-and-flags.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.left__item-title-3::after {
+	content: '';
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: 0;
+	left: -70px;
+	background-image: url(../img/icons/network.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.block-left__item-link {
+	font-weight: 400;
+	font-size: 15px;
+	letter-spacing: -0.04em;
+	color: var(--color-primary);
+}
+
+.block-left__item-address {
+	max-width: 278px;
+	font-weight: 400;
+	font-size: 15px;
+	letter-spacing: -0.04em;
+	color: var(--color-primary);
+}
+
+.item-socials__list {
+	display: flex;
+	align-items: center;
+	gap: 17px;
+}
+
+.item-socials-inst {
+	width: 35px;
+	height: 35px;
+}
+
+.item-socials-vk {
+	width: 40px;
+	height: 40px;
+}
+
+.item-socials-tg {
+	width: 35px;
+	height: 35px;
+}
+
+.contact__block-right-title {
+	font-weight: 500;
+	font-size: 32px;
+	letter-spacing: -0.04em;
+	color: var(--color-secondary);
+	margin-bottom: 25px;
+}
+
+/* Form Contacts */
+
+.contact__block-right-form {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.contact__block-email {
+	border: 0.5px solid var(--color-primary);
+	border-radius: 5px;
+	width: 360px;
+	padding: 20px 20px;
+	font-weight: 400;
+	font-size: 14px;
+	letter-spacing: -0.04em;
+	color: var(--color-primary);
+}
+
+.contact__block-name {
+	border: 0.5px solid var(--color-primary);
+	border-radius: 5px;
+	width: 360px;
+	padding: 20px 20px;
+	font-weight: 400;
+	font-size: 14px;
+	letter-spacing: -0.04em;
+	color: var(--color-primary);
+}
+
+.contact__block-textarea {
+	border: 0.5px solid var(--color-primary);
+	border-radius: 5px;
+	width: 520px;
+	min-height: 160px;
+	padding: 20px 20px;
+	resize: none;
+	font-weight: 400;
+	font-size: 14px;
+	letter-spacing: -0.04em;
+	color: var(--color-primary);
+}
+
+input[type='submit'],
+.contact__block-btn {
+	background: var(--006);
+	cursor: pointer;
+	display: flex;
+	text-align: center;
+	width: 195px;
+	padding: 12px 20px;
+	text-align: left;
+	font-weight: 600;
+	font-size: 14px;
+	letter-spacing: -0.04em;
+	border-radius: 5px;
+	color: #fff;
+}
+
+/* Section Questions */
+
+.questions-title {
+	font-weight: 500;
+	font-size: 29px;
+	text-align: center;
+	color: var(--color-secondary);
+	margin-bottom: 60px;
+}
+
+.questions-list {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 120px;
+	row-gap: 68px;
+	justify-content: center;
+}
+
+.questions__list-item-title {
+	max-width: 384px;
+	font-weight: 600;
+	font-size: 29px;
+	line-height: 138%;
+	color: var(--color-secondary);
+	margin-bottom: 20px;
+}
+
+.questions__list-item-text {
+	max-width: 370px;
+	font-weight: 400;
+	font-size: 15px;
+	color: var(--color-primary);
+}

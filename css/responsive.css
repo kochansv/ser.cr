@@ -1,0 +1,234 @@
+@media (max-width: 1685px) {
+	.header::after {
+		left: 20%;
+	}
+
+	.img-list-1,
+	.img-list-2,
+	.img-list-3 {
+		display: none;
+	}
+
+	.main-list {
+		flex-wrap: wrap;
+	}
+}
+
+@media (max-width: 1395px) {
+	.header::after {
+		left: 15%;
+	}
+}
+
+@media (max-width: 1220px) {
+	.header::after {
+		position: relative;
+	}
+
+	.header-contact__block {
+		justify-content: center;
+		gap: 40px;
+		flex-wrap: wrap;
+	}
+
+	.questions-list {
+		column-gap: 20px;
+		row-gap: 40px;
+	}
+
+	.contact__block-textarea {
+		width: 360px;
+	}
+
+	.price-block__section-price {
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: center;
+		gap: 45px;
+	}
+
+	.team-list {
+		flex-wrap: wrap;
+	}
+}
+
+/* Header Burger */
+
+@media (max-width: 768px) {
+	.header::after {
+		content: '';
+		position: relative;
+	}
+
+	.menu-logo {
+		text-align: left;
+	}
+
+	.header-special {
+		padding-top: 110px;
+	}
+
+	.header-menu {
+		gap: 25px;
+	}
+
+	.header-title {
+		font-size: 35px;
+	}
+
+	.header-subtitle {
+		font-size: 22px;
+	}
+
+	.menu-list {
+		z-index: 5;
+		position: absolute;
+		top: 0;
+		left: -100%;
+		height: 100vh;
+		width: 100%;
+		background-color: var(--006);
+		justify-content: center;
+		flex-direction: column;
+		transition: left 0.3s ease-in-out;
+	}
+
+	.menu-icon {
+		display: block;
+	}
+
+	.menu-logo {
+		flex-grow: 1;
+	}
+
+	.menu-list.active {
+		left: 0;
+	}
+
+	.menu-list__link {
+		color: #fff;
+		font-size: 30px;
+		line-height: 70px;
+	}
+
+	.special-call {
+		padding-bottom: 0;
+	}
+
+	.team-title {
+		font-size: 35px;
+	}
+
+	.team-subtitle {
+		font-size: 22px;
+	}
+
+	/* Main Section */
+
+	.main-list {
+		gap: 65px;
+		flex-wrap: wrap;
+	}
+
+	.main-title {
+		font-size: 29px;
+	}
+
+	/* Price Section */
+
+	.price {
+		margin-top: 75px;
+	}
+
+	.price-title {
+		font-size: 37px;
+	}
+
+	.price-block__title {
+		font-size: 21px;
+	}
+
+	.price-block__section-price {
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 45px;
+	}
+}
+
+@media (max-width: 655px) {
+	.header-subtitle {
+		font-size: 20px;
+	}
+	.team-title {
+		font-size: 36px;
+	}
+	.team-subtitle {
+		font-size: 20px;
+	}
+	.team-list {
+		flex-wrap: wrap;
+	}
+}
+
+@media (max-width: 476px) {
+	.header-subtitle.about-subtitle {
+		margin-bottom: 50px;
+	}
+
+	.header-rating {
+		margin-bottom: 50px;
+	}
+
+	.header-history-list {
+		gap: 20px;
+		margin-bottom: 50px;
+	}
+
+	.special-call {
+		font-size: 13px;
+	}
+
+	.main-title {
+		font-size: 30px;
+	}
+
+	.main-subtitle {
+		font-size: 20px;
+	}
+
+	.price-title {
+		font-size: 32px;
+	}
+
+	.price-block__title {
+		font-size: 20px;
+	}
+
+	.section-price__name {
+		font-size: 18px;
+	}
+
+	.section-price__price {
+		font-size: 22px;
+	}
+
+	.review-list__text {
+		font-size: 16px;
+	}
+
+	.team-title {
+		font-size: 32px;
+	}
+
+	.team-subtitle {
+		font-size: 18px;
+	}
+
+	.questions__list-item-title {
+		font-size: 27px;
+	}
+
+	.questions-list {
+		row-gap: 30px;
+	}
+}

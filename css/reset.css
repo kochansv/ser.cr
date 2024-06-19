@@ -80,8 +80,7 @@ input::-ms-clear {
 	display: none;
 }
 
-button,
-input[type='submit'] {
+button {
 	display: inline-block;
 	box-shadow: none;
 	background-color: transparent;

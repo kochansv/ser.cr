@@ -162,7 +162,6 @@
 	color: var(--color-primary);
 }
 
-input[type='submit'],
 .contact__block-btn {
 	background: var(--006);
 	cursor: pointer;

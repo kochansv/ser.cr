@@ -147,31 +147,49 @@
 					<h4 class="price-block__title">Ноутбуки & Ультрабуки</h4>
 					<ul class="price-block__list-brand">
 						<li class="list-brand__item">
-							<button class="list-brand__btn price-btn">Asus</button>
+							<button data-button="asus-note-price"
+							class="list-brand__btn price-btn__note price-note--active price-btn"
+							>Asus</button>
 						</li>
 						<li class="list-brand__item">
-							<button class="list-brand__btn price-btn">Apple</button>
+							<button data-button="apple-note-price"
+							class="list-brand__btn price-btn__note price-btn"
+							>Apple</button>
 						</li>
 						<li class="list-brand__item">
-							<button class="list-brand__btn price-btn">Lenovo</button>
+							<button data-button="lenovo-note-price"
+							class="list-brand__btn price-btn__note price-btn"
+							>Lenovo</button>
 						</li>
 						<li class="list-brand__item">
-							<button class="list-brand__btn price-btn">Dell</button>
+							<button data-button="dell-note-price"
+							class="list-brand__btn price-btn__note price-btn"
+							>Dell</button>
 						</li>
 					</ul>
 					<div class="price-block__section-price">
 						<div class="section-price__left section-price">
-							<div class="section-price__text">
+							<!-- NOTEPAD -- ASUS / APPLE / LENOVO / DELL -->
+							<div class="section-price__text"> 
 								<p class="section-price__name">Замена дисплея</p>
-								<p class="section-price__price">от 12.900Р</p>
+								<p class="section-price__price price__price-note price__price-note--active asus-note-price">от 12.900Р</p>
+								<p class="section-price__price price__price-note apple-note-price">от 13.500Р</p>
+								<p class="section-price__price price__price-note lenovo-note-price">от 10.900Р</p>
+								<p class="section-price__price price__price-note dell-note-price">от 9.900Р</p>
 							</div>
 							<div class="section-price__text">
 								<p class="section-price__name">Замена батареи</p>
-								<p class="section-price__price">от 5.500Р</p>
+								<p class="section-price__price price__price-note price__price-note--active asus-note-price"">от 5.500Р</p>
+								<p class="section-price__price price__price-note apple-note-price">от 6.500Р</p>
+								<p class="section-price__price price__price-note lenovo-note-price">от 4.900Р</p>
+								<p class="section-price__price price__price-note dell-note-price">от 4.700Р</p>
 							</div>
 							<div class="section-price__text">
 								<p class="section-price__name">Замена материнской платы</p>
-								<p class="section-price__price">от 14.900Р</p>
+								<p class="section-price__price price__price-note price__price-note--active asus-note-price">от 14.900Р</p>
+								<p class="section-price__price price__price-note apple-note-price">от 19.400Р</p>
+								<p class="section-price__price price__price-note lenovo-note-price">от 12.200Р</p>
+								<p class="section-price__price price__price-note dell-note-price">от 10.500Р</p>
 							</div>
 						</div>
 						<img
@@ -182,15 +200,24 @@
 						<div class="section-price__right section-price">
 							<div class="section-price__text">
 								<p class="section-price__name">Замена трекпада</p>
-								<p class="section-price__price">от 3.500Р</p>
+								<p class="section-price__price price__price-note price__price-note--active asus-note-price">от 3.500Р</p>
+								<p class="section-price__price price__price-note apple-note-price">от 4.200Р</p>
+								<p class="section-price__price price__price-note lenovo-note-price">от 3.000Р</p>
+								<p class="section-price__price price__price-note dell-note-price">от 2.500Р</p>
 							</div>
 							<div class="section-price__text">
 								<p class="section-price__name">Замена клавиатуры</p>
-								<p class="section-price__price">от 4.000Р</p>
+								<p class="section-price__price price__price-note price__price-note--active asus-note-price">от 4.000Р</p>
+								<p class="section-price__price price__price-note apple-note-price">от 7.500Р</p>
+								<p class="section-price__price price__price-note lenovo-note-price">от 3.000Р</p>
+								<p class="section-price__price price__price-note dell-note-price">от 4.400Р</p>
 							</div>
 							<div class="section-price__text">
 								<p class="section-price__name">Замена динамиков</p>
-								<p class="section-price__price">от 1.900Р</p>
+								<p class="section-price__price price__price-note price__price-note--active asus-note-price">от 1.900Р</p>
+								<p class="section-price__price price__price-note apple-note-price">от 4.500Р</p>
+								<p class="section-price__price price__price-note lenovo-note-price">от 2.500Р</p>
+								<p class="section-price__price price__price-note dell-note-price">от 2.100Р</p>
 							</div>
 						</div>
 					</div>
@@ -199,31 +226,48 @@
 					<h4 class="price-block__title">Телефоны</h4>
 					<ul class="price-block__list-brand">
 						<li class="list-brand__item">
-							<button class="list-brand__btn price-btn">Xiaomi</button>
+							<button data-button="xiaomi-tel-price"
+							class="list-brand__btn price-btn__tel price-tel--active price-btn"
+							>Xiaomi</button>
 						</li>
 						<li class="list-brand__item">
-							<button class="list-brand__btn price-btn">Iphone</button>
+							<button data-button="iphone-tel-price"
+							class="list-brand__btn price-btn__tel price-btn"
+							>Iphone</button>
 						</li>
 						<li class="list-brand__item">
-							<button class="list-brand__btn price-btn">Samsung</button>
+							<button data-button="samsung-tel-price"
+							class="list-brand__btn price-btn__tel price-btn"
+							>Samsung</button>
 						</li>
 						<li class="list-brand__item">
-							<button class="list-brand__btn price-btn">Pixel</button>
+							<button data-button="pixel-tel-price"
+							class="list-brand__btn price-btn__tel price-btn"
+							>Pixel</button>
 						</li>
 					</ul>
 					<div class="price-block__section-price">
 						<div class="section-price__left section-price">
 							<div class="section-price__text">
 								<p class="section-price__name">Замена дисплея</p>
-								<p class="section-price__price">от 6.500Р</p>
+								<p class="section-price__price price__price-tel price__price-tel--active xiaomi-tel-price">от 6.500Р</p>
+								<p class="section-price__price price__price-tel iphone-tel-price">от 8.500Р</p>
+								<p class="section-price__price price__price-tel samsung-tel-price">от 6.500Р</p>
+								<p class="section-price__price price__price-tel pixel-tel-price">от 6.500Р</p>
 							</div>
 							<div class="section-price__text">
 								<p class="section-price__name">Замена батареи</p>
-								<p class="section-price__price">от 3.500Р</p>
+								<p class="section-price__price price__price-tel price__price-tel--active xiaomi-tel-price">от 3.500Р</p>
+								<p class="section-price__price price__price-tel iphone-tel-price">от 3.900Р</p>
+								<p class="section-price__price price__price-tel samsung-tel-price">от 3.000Р</p>
+								<p class="section-price__price price__price-tel pixel-tel-price">от 3.200Р</p>
 							</div>
 							<div class="section-price__text">
 								<p class="section-price__name">Замена камеры</p>
-								<p class="section-price__price">от 5.500Р</p>
+								<p class="section-price__price price__price-tel price__price-tel--active xiaomi-tel-price">от 5.500Р</p>
+								<p class="section-price__price price__price-tel iphone-tel-price">от 8.500Р</p>
+								<p class="section-price__price price__price-tel samsung-tel-price">от 5.900Р</p>
+								<p class="section-price__price price__price-tel pixel-tel-price">от 6.500Р</p>
 							</div>
 						</div>
 						<img
@@ -234,15 +278,24 @@
 						<div class="section-price__right section-price">
 							<div class="section-price__text">
 								<p class="section-price__name">Чистка телефона</p>
-								<p class="section-price__price">от 1.500Р</p>
+								<p class="section-price__price price__price-tel price__price-tel--active xiaomi-tel-price">от 1.500Р</p>
+								<p class="section-price__price price__price-tel iphone-tel-price">от 1.500Р</p>
+								<p class="section-price__price price__price-tel samsung-tel-price">от 1.500Р</p>
+								<p class="section-price__price price__price-tel pixel-tel-price">от 1.500Р</p>
 							</div>
 							<div class="section-price__text">
 								<p class="section-price__name">Замена корпуса</p>
-								<p class="section-price__price">от 7.500Р</p>
+								<p class="section-price__price price__price-tel price__price-tel--active xiaomi-tel-price">от 5.500Р</p>
+								<p class="section-price__price price__price-tel iphone-tel-price">от 7.500Р</p>
+								<p class="section-price__price price__price-tel samsung-tel-price">от 6.500Р</p>
+								<p class="section-price__price price__price-tel pixel-tel-price">от 7.000Р</p>
 							</div>
 							<div class="section-price__text">
 								<p class="section-price__name">Замена динамиков</p>
-								<p class="section-price__price">от 2.000Р</p>
+								<p class="section-price__price price__price-tel price__price-tel--active xiaomi-tel-price">от 2.000Р</p>
+								<p class="section-price__price price__price-tel iphone-tel-price">от 2.900Р</p>
+								<p class="section-price__price price__price-tel samsung-tel-price">от 2.400Р</p>
+								<p class="section-price__price price__price-tel pixel-tel-price">от 2.700Р</p>
 							</div>
 						</div>
 					</div>

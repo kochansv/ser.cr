@@ -61,3 +61,63 @@ if (modalElem && buttonModal) {
 		body.classList.toggle('lock')
 	})
 }
+
+// Price Section
+
+// notepad
+
+const chooseNoteBtn = document.querySelectorAll('.price-btn__note')
+const priceNoteContent = document.querySelectorAll('.price__price-note')
+
+chooseNoteBtn.forEach(function (element) {
+	element.addEventListener('click', openNote)
+})
+
+function openNote(evt) {
+	const target = evt.currentTarget
+	const button = target.dataset.button
+	const contentActive = document.querySelectorAll(`.${button}`)
+
+	chooseNoteBtn.forEach(function (item) {
+		item.classList.remove('price-note--active')
+	})
+
+	target.classList.add('price-note--active')
+
+	priceNoteContent.forEach(function (item) {
+		item.classList.remove('price__price-note--active')
+	})
+
+	contentActive.forEach(function (item) {
+		item.classList.add('price__price-note--active')
+	})
+}
+
+// telephone
+
+const chooseTelBtn = document.querySelectorAll('.price-btn__tel')
+const priceTelContent = document.querySelectorAll('.price__price-tel')
+
+chooseTelBtn.forEach(function (element) {
+	element.addEventListener('click', openTel)
+})
+
+function openTel(evt) {
+	const target = evt.currentTarget
+	const button = target.dataset.button
+	const contentActive = document.querySelectorAll(`.${button}`)
+
+	chooseTelBtn.forEach(function (item) {
+		item.classList.remove('price-tel--active')
+	})
+
+	target.classList.add('price-tel--active')
+
+	priceTelContent.forEach(function (item) {
+		item.classList.remove('price__price-tel--active')
+	})
+
+	contentActive.forEach(function (item) {
+		item.classList.add('price__price-tel--active')
+	})
+}

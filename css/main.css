@@ -589,6 +589,16 @@ header {
 	background-color: rgba(0, 196, 223);
 }
 
+.price-note--active {
+	color: rgba(8, 16, 81);
+	background-color: rgba(0, 196, 223);
+}
+
+.price-tel--active {
+	color: rgba(8, 16, 81);
+	background-color: rgba(0, 196, 223);
+}
+
 .price-block__section-price {
 	display: flex;
 	align-items: center;
@@ -630,11 +640,20 @@ header {
 }
 
 .section-price__price {
+	display: none;
 	flex-basis: 118px;
 	font-weight: 600;
 	font-size: 24px;
 	letter-spacing: -0.04em;
 	color: #fff;
+}
+
+.price__price-note.price__price-note--active {
+	display: block;
+}
+
+.price__price-tel.price__price-tel--active {
+	display: block;
 }
 
 .price-btn__contact {

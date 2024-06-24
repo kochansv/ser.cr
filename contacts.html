@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" href=".img/icons/S.ico">
 		<link rel="stylesheet" href="./css/main.css" />
 		<link rel="stylesheet" href="./css/responsive.css">
 		<title>SER.CR - Сервизный центр электроники</title>
@@ -14,7 +15,7 @@
 					<a href="#" class="menu-logo logo">SER<span>.</span>CR</a>
 					<ul class="menu-list header-menu-list">
 						<li class="menu-list__item">
-							<a class="menu-list__link" href="./main.html">Главная</a>
+							<a class="menu-list__link" href="./index.html">Главная</a>
 						</li>
 						<li class="menu-list__item">
 							<a class="menu-list__link" href="./about.html">О нас</a>
@@ -28,7 +29,7 @@
 							>
 						</li>
 					</ul>
-					<button class="menu-button">Заказать звонок</button>
+					<button class="menu-button active-btn-hover">Заказать звонок</button>
 					<div class="menu-icon">
 						<span></span>
 						<span></span>
@@ -42,7 +43,7 @@
 								<form class="modal-call__form" method="post" action="">
 								<input class="modal-input modal-input__name" type="text" id="name" name="name" placeholder="Ваше имя" required><br>
 								<input class="modal-input modal-input__phone" type="tel" id="phone" name="phone" placeholder="Ваш телефон" required><br>
-								<input class="modal-input__btn" type="submit" value="Отправить" />
+								<input class="modal-input__btn active-btn-hover" type="submit" value="Отправить" />
 							</form>
 						</div>
 							<button class="modal-call__close"><img src="./img/icons/cross-btn.svg" alt="Кнопка закрытия всплывающего окна заказать звонок"></button>
@@ -109,7 +110,10 @@
 						<h3 class="contact__block-right-title">
 							Вы можете связаться с нами
 						</h3>
-						<form class="contact__block-right-form" action="" method="">
+						<form class="contact__block-right-form" action="https://api.web3forms.com/submit" method="POST">
+
+							<input type="hidden" name="access_key" value="34d3f68e-a318-4e6c-a301-dfafce7f6cae">
+
 							<input
 								class="contact__block-email"
 								type="text"
@@ -167,7 +171,7 @@
 				<a href="#" class="footer-logo logo">SER<span>.</span>CR</a>
 				<ul class="footer-menu menu-list">
 					<li class="menu-list__item">
-						<a class="menu-list__link" href="./main.html">Главная</a>
+						<a class="menu-list__link" href="./index.html">Главная</a>
 					</li>
 					<li class="menu-list__item">
 						<a class="menu-list__link" href="./about.html">О нас</a>
